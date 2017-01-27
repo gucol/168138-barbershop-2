@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<title>Барбершоп «Бородинский»</title>
+		<link href="css/style.css" rel="stylesheet">
+	</head>
+	<body>
+		<header class="second-header">
+			<div class="container clearfix">
+				<div class="logo">
+					<a href="index.html"><img src="img/logo.png"  width="111" height="24" alt="Барбершоп «Бородинский». Логотип."></a>
+				</div>
+				<nav class="main-navigation">
+					<ul>
+						<li><a href="#">Информация</a></li>
+ 						<li><a href="#">Новости</a></li>
+						<li><a href="#">Прайс-лист</a></li>
+						<li><a>Магазин</a></li>
+						<li><a href="#">Контакты</a></li>
+					</ul>
+				</nav>
+				<div class="user-block">
+					<a class="login" href="#">Вход</a>	
+				</div>
+			</div>
+		</header>
+		<main class="container">
+			<section class="nav">
+				<h1>Средства для ухода</h1>
+				<div class="breadcrumbs">
+					<a href="#">Главная</a>
+					<a href="#">Магазин</a>
+					<a>Средства для ухода</a>
+				</div>
+			</section>
+			<section class="forms">
+				<form action="/echo" method="post"> 
+					<fieldset>
+						<legend>Производители:</legend>
+							<p>
+								<input type="checkbox" name="baxter" id="baxter-field">
+								<label for="baxter-field">Baxter of California</label>
+							</p>
+							<p>
+								<input type="checkbox" name="natty" id="natty-field">
+								<label for="natty-field">MR Natty</label>
+							</p>
+							<p>
+								<input type="checkbox" name="suavecito" id="suavecito-field">
+								<label for="suavecito-field">Suavecito</label>
+							</p>
+							<p>
+								<input type="checkbox" name="malin" id="malin-field">
+								<label for="malin-field">Malin+Goetz</label>
+							</p>
+							<p>
+								<input type="checkbox" name="murrays" id="murrays-field">
+								<label for="murrays-field">Murray's</label>
+							</p>
+							<p>
+								<input type="checkbox" name="amcrew" id="amcrew-field">
+								<label for="amcrew-field">American Crew</label>
+							</p>
+					</fieldset>
+					<fieldset>
+						<legend>Группы товаров:</legend>
+						<p>
+							<label>
+								<input type="radio" name="product-type" value="razor">
+								<span>Бритвенные принадлежности</span>
+							</label>
+						</p>
+						<p>
+							<label>
+								<input type="radio" name="product-type" value="care">
+								<span>Средства для ухода</span>
+							</label>
+						</p>
+						<p>
+							<label>
+								<input type="radio" name="product-type" value="accessory">
+								<span>Аксессуары</span>
+							</label>
+						</p>
+					</fieldset>
+					<button type="submit">Показать</button>
+				</form>
+			</section>
+			<section class="art-gallery">
+				<div class="articles">
+					<article>
+						<img src="img/set-bofc-1.jpg"  width="220" height="165" alt=" ">
+						<h2>
+							<a href="#">
+								<span class="category">Набор для путешествий</span>
+								<span class="prod-name">"Baxter of Clifornia"</span>
+							</a>
+						</h2>
+						<div>
+							<span class="price"></span>
+							<a href="#">купить</a>
+						</div>
+					</article>
+					<article>
+						<img src="img/conditioner-bofc.jpg"  width="220" height="165" alt=" ">
+						<h2>
+							<a href="#">
+								<span class="category">Набор для путешествий</span>
+								<span class="prod-name">"Baxter of Clifornia"</span>
+							</a>
+						</h2>
+						<div>
+							<span class="price"></span>
+							<a href="#">купить</a>
+						</div>
+					</article>
+					<article>
+						<img src="img/gel-sua.jpg"  width="220" height="165" alt=" ">
+						<h2>
+							<a href="#">
+								<span class="category">Набор для путешествий</span>
+								<span class="prod-name">"Baxter of Clifornia"</span>
+							</a>
+						</h2>
+						<div>
+							<span class="price"></span>
+							<a href="#">купить</a>
+						</div>
+					</article>
+					<article>
+						<img src="img/clay-amcrew.jpg"  width="220" height="165" alt=" ">
+						<h2>
+							<a href="#">
+								<span class="category"></span>
+								<span class="prod-name"></span>
+							</a>
+						</h2>
+						<div>
+							<span class="price"></span>
+							<a href="#">купить</a>
+						</div>
+					</article>
+					<article>
+						<img src="img/gel-amcrew.jpg"  width="220" height="165" alt=" ">
+						<h2>
+							<a href="#">
+								<span class="category"></span>
+								<span class="prod-name"></span>
+							</a>
+						</h2>
+						<div>
+							<span class="price"></span>
+							<a href="#">купить</a>
+						</div>
+					</article>
+					<article>
+						<img src="img/set-bofc-2.jpg"  width="220" height="165" alt=" ">
+						<h2>
+							<a href="#">
+								<span class="category"></span>
+								<span class="prod-name"></span>
+							</a>
+						</h2>
+						<div>
+							<span class="price"></span>
+							<a href="#">купить</a>
+						</div>
+					</article>
+				</div>
+				<div class="art-nav">
+					<a>1</a>
+					<a href="#">2</a>
+					<a href="#">3</a>
+					<a href="#">4</a>
+				</div>
+			</section>
+		</main>
+		<footer class="main-footer">
+			<div class="container clearfix">
+				<section class="footer-contacts">
+	          		Барбершоп «Бородинский»<br>
+	          		Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
+	          		<a href="#">Как нас найти?</a><br>
+	          		Телефон: +7 (812) 666-02-66
+	        	</section>
+	        	<section class="footer-social">
+	          		<p>Давайте дружить!</p>
+	          		<a class="social-btn social-btn-vk" href="#">Вконтакте</a>
+	          		<a class="social-btn social-btn-fb" href="#">Фейсбук</a>
+	          		<a class="social-btn social-btn-inst" href="#">Инстаграм</a>
+	        	</section>
+	        	<section class="footer-copyright">
+	          		<p>Разработано:</p>
+	          		<a class="btn" href="https://htmlacademy.ru">HTML Academy</a>
+	        	</section>
+	        </div>
+		</footer>
+	</body>
+</html>
