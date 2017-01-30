@@ -24,4 +24,149 @@ body {
     color: #000; 
     text-transform: uppercase;  
  }
- 
+
+.clearfix::after {
+  content: "";
+
+  display: table;
+  clear: both;
+}
+
+.container {
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+/*HEADER*/
+.main-header {
+  margin-bottom: 60px;
+} 
+
+.main-navigation {
+  float: left;
+  width: 780px;
+
+  /* Только для оформления сетки */
+  min-height: 70px;
+}
+
+.main-navigation li {
+    display: inline-block;
+}
+
+.user-block {
+  float: right;
+  width: 140px;
+
+  /* Только для оформления сетки */
+  min-height: 70px;
+}
+
+/*INDEX*/
+.index-logo {
+  width: 368px;
+  min-height: 204px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 25px;
+}
+
+.features-item {
+  float: left;
+  width: 300px;
+  margin-right: 20px;
+  
+  /* Только для оформления сетки */
+  min-height: 175px;
+}
+
+.features-item:last-child {
+  margin-right: 0;
+}
+
+.index-content {
+    margin-bottom: 35px;
+  padding: 50px 80px;
+}
+
+.index-content-left {
+    float: left;
+    width: 380px;
+  /* Только для оформления сетки */
+  min-height: 330px;
+}
+
+.index-content-right {
+    float: right;
+    width: 300px;
+  /* Только для оформления сетки */
+  min-height: 330px;
+}
+
+/*CATALOG*/
+.logo {
+    float: left;
+}
+
+.second-header {
+    margin-bottom: 50px;
+}
+
+.forms {
+    max-width: 200px;
+    float: left;
+}
+
+.art-gallery {
+    width: 720px;
+    float: right;
+}
+
+article {
+    max-width: 230px;
+    display: inline-block;
+}
+
+/*CATALOG-INDEX*/
+.prod-gallery {
+    width: 480px;
+    float: left;
+}
+
+.definition {
+    width: 400px;
+    float: right;
+}
+/*FOOTER*/
+.main-footer {
+  margin-top: 65px;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.footer-contacts {
+  float: left;
+  width: 320px;
+  margin-right: 60px;
+
+  /* Только для оформления сетки */
+  min-height: 90px;
+}
+
+.footer-social {
+  float: left;
+  width: 180px;
+
+  /* Только для оформления сетки */
+  min-height: 90px;
+}
+
+.footer-copyright {
+  float: right;
+  width: 180px;
+
+  /* Только для оформления сетки */
+  min-height: 90px;
+} 
+
