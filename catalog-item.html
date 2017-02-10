@@ -3,20 +3,22 @@
   <head>
     <meta charset="utf-8">
     <title>Барбершоп «Бородинский»</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=latin,cyrillic">
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
-  <body>
-    <header class="second-header">
+  <body class="inner-page">
+    <header class="main-header">
       <div class="container clearfix">
         <nav class="main-navigation">
-          <div class="logo">
-            <a href="index.html"><img src="img/logo.png"  width="111" height="24" alt="Барбершоп «Бородинский». Логотип."></a>
-          </div>          
+          <a class="logo" href="index.html">
+            <img src="img/logo.png"  width="111" height="24" alt="Барбершоп «Бородинский». Логотип.">
+          </a>        
           <ul>
             <li><a href="#">Информация</a></li>
             <li><a href="#">Новости</a></li>
             <li><a href="#">Прайс-лист</a></li>
-            <li><a>Магазин</a></li>
+            <li class="active"><a>Магазин</a></li>
             <li><a href="#">Контакты</a></li>
           </ul>
         </nav>
@@ -25,9 +27,10 @@
         </div>
       </div>
     </header>
-    <main class="container clearfix">
+    <main class="second-main">
+      <div class="container clearfix">
       <section class="nav">
-          <h1>Набор для путешествий "Baxter of California"</h1>
+          <h1>Набор для путешествий Baxter of California</h1>
           <div class="breadcrumbs">
             <a href="#">Главная</a>
             <a href="#">Магазин</a>
@@ -36,26 +39,26 @@
         </div>
       </section>
       <section class="prod-gallery">
-        <img src="img/item-1.jpg"  width="460" height="498" alt=" ">
+        <img class="prod-img" src="img/item-1.jpg"  width="460" height="498" alt=" ">
         <div class="small-gal">
-            <img src="img/item-4.jpg"  width="140" height="149" alt=" ">
-            <img src="img/item-3.jpg"  width="140" height="149" alt=" ">
-            <img src="img/item-2.jpg"  width="140" height="149" alt=" ">
+            <img class="prod-img" src="img/item-4.jpg"  width="140" height="149" alt=" ">
+            <img class="prod-img" src="img/item-3.jpg"  width="140" height="149" alt=" ">
+            <img class="prod-img" src="img/item-2.jpg"  width="140" height="149" alt=" ">
         </div>
       </section>
       <section class="definition">
           <div>
+            <p class="presence">есть в наличии</p>
             <p class="ven-code">артикул: dexter-ae</p>
-            <p>есть в наличии</p>
-            <p>
+            <p class="description">
               Travel kit - необходимый аксессуар во время любого путешествия. В аккуратной кожаной сумке находится все, что нужно для бритья и ухода за кожей во время рабочей поездки или отдыха: средство для умывания, увлажняющий крем, крем для бритья, крем после бритья, шампунь. Набор также может стать отличным подарком. 
             </p>
           </div>
-          <div>
+          <div class="buying">
               <p class="price">2 900 руб.</p>
-              <button>купить</button>
+              <button class="btn">купить</button>
           </div>
-          <div>
+          <div class="consist">
               <h2>В набор входят:</h2>
               <ul>
                   <li>средство для умывания (50 мл)</li>
@@ -66,8 +69,9 @@
               </ul>
           </div>
       </section>
+    </div>
     </main>
-    <footer class="main-footer">
+    <footer class="main-footer inner-page-footer">
       <div class="container clearfix">
            <section class="footer-contacts">
               Барбершоп «Бородинский»<br>
@@ -83,7 +87,7 @@
           </section>
           <section class="footer-copyright">
               <p>Разработано:</p>
-              <a class="btn" href="https://htmlacademy.ru">HTML Academy</a>
+              <a class="btn" href="https://htmlacademy.ru">HTML Academy.ru</a>
           </section>
       </div>
     </footer>
